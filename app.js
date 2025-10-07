@@ -3,10 +3,9 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Hello from Node.js running in Docker via GitHub Actions!");
+  res.send("Hello from Node.js running in Docker via GitHub Actions!!");
 });
 
 app.listen(port, () => {
   console.log(App running on http://localhost:${port});
 });
-#trying to check actions
